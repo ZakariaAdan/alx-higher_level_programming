@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 
-ascii_value = ord('a')
-
-while ascii_value <= ord('z'):
-    print(chr(ascii_value), end='')
-    ascii_value += 1
-
-print()
+for i in range(ord('a'), ord('z') + 1):
+    if chr(i) != 'e' and chr(i) != 'q':
+        print('{:c}'.format(i), end='')
