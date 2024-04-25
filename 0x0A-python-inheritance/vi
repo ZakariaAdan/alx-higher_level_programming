@@ -1,0 +1,23 @@
+Description: Test cases for BaseGeometry class
+
+# Test Case 1: Valid input
+Test Case:
+my_int = 12
+width = 89
+Expected Output: No exceptions should be raised
+
+# Test Case 2: Non-integer input
+Test Case:
+name = John
+Expected Output: [TypeError] name must be an integer
+
+# Test Case 3: Zero value input
+Test Case:
+age = 0
+Expected Output: [ValueError] age must be greater than 0
+
+# Test Case 4: Negative value input
+Test Case:
+distance = -4
+Expected Output: [ValueError] distance must be greater than 0
+
